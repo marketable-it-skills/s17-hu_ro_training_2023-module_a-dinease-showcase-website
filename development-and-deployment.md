@@ -17,56 +17,34 @@
 
 ### Prerequisites
 
-- Node.js 18+ and npm (for testing framework in Task 1)
-- Modern web browser (Chrome recommended for PWA testing)
-- Basic HTTP server for PWA development
 - Text editor or IDE
+- Modern web browser (Chrome or Firefox recommended)
+- Basic understanding of HTML5 and CSS3
+- Optional: Node.js and npm (if using CSS preprocessors)
 
-### Task 1: Automated Testing Setup
+### Getting Started
 
-1. Navigate to the provided starter kit for Task 1
-2. Install testing dependencies:
-   ```bash
-   npm install
-   ```
-3. Run existing tests to understand the structure:
-   ```bash
-   npm test
-   ```
-4. Write comprehensive unit tests for the provided JavaScript code
-5. Ensure 100% code coverage and mutation testing compliance
+1. Navigate to the provided project folder
+2. Create your HTML structure in the `/src` folder
+3. Organize your assets according to the provided folder structure
+4. Use the content files in `/assets/content/` for page content
+5. Follow the design files in `/assets/design/` for visual guidance
+6. Use the provided images and icons from `/assets/DineEase Site Assets/`
 
-### Task 2: Progressive Web App Development
+### Development Guidelines
 
-1. Navigate to the provided starter kit for Task 2
-2. Start the provided HTTP server:
-   ```bash
-   npm start
-   ```
-3. The PWA development server will be available at `http://localhost:3000`
-4. The AI news API will be available at `http://localhost:3000/api`
-5. Use browser dev tools to test PWA features:
-   - Application tab for service worker and manifest
-   - Network tab for offline functionality
-   - Lighthouse audit for PWA compliance
-
-### Task 3: Web Components Development
-
-1. Navigate to the provided starter kit for Task 3
-2. Start the development server:
-   ```bash
-   npm start
-   ```
-3. The test website will be available at `http://localhost:8080`
-4. Develop the three required web components:
-   - `<limited-textarea>`
-   - `<confirmation-modal>`
-   - `<count-down>`
-5. Test components integration in the provided example website
+- Write semantic HTML5 markup
+- Use CSS3 for styling and responsive design
+- Implement responsive breakpoints for mobile (360×640), tablet (768×1024), and desktop (1920×1080)
+- Ensure WCAG accessibility compliance
+- Implement SEO best practices with proper meta tags
+- Validate HTML and CSS using W3C validators
 
 ### Testing and Validation
 
-- Use Chrome DevTools for debugging and testing
-- Test PWA installation and offline functionality
-- Verify web components work across different browsers
-- Ensure all automated tests pass with 100% coverage
+- Test responsive design across all three specified viewports
+- Validate HTML using [W3C HTML Validator](https://validator.w3.org/)
+- Validate CSS using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Test accessibility using axe browser extension
+- Check cross-browser compatibility on Chrome and Firefox
+- Verify SEO implementation with browser dev tools

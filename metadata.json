@@ -1,16 +1,33 @@
 {
-  "id": 5,
-  "name": "ES2023 S17 - Module E",
-  "displayName": "Advanced Web Development",
-  "description": "Advanced web development skills including automated testing, Progressive Web App (PWA) development, and custom Web Components creation. Build comprehensive test suites, create installable PWAs with offline functionality, and develop reusable web components.",
-  "url": "https://github.com/marketable-it-skills/s17-es2023-module_e-advanced-web-development",
+  "id": 8,
+  "name": "HU-RO Training 2023 - Module A",
+  "displayName": "DineEase Showcase Website",
+  "description": "Create a captivating promotional website for DineEase, a revolutionary dining platform. Build a responsive HTML/CSS website showcasing restaurant search, featured restaurants, testimonials, and company information to attract new users to the DineEase platform.",
+  "url": "https://github.com/marketable-it-skills/s17-hu_ro_training_2023-module_a-dinease-showcase-website",
   "skillDomainIds": [1],
-  "competition": "EuroSkills Gdansk 2023",
+  "competition": "Hungary-Romania Training 2023",
   "estTime": 3,
   "authors": [
-    { "name": "Cyril Wanner", "url": "" },
-    { "name": "Sebastian Häni", "url": "" }
+    {
+      "name": "Zoltan Sisak",
+      "url": "https://www.linkedin.com/in/zoltan-sisak/"
+    },
+    {
+      "name": "Janos Hidvegi",
+      "url": "https://www.linkedin.com/in/j%C3%A1nos-hidv%C3%A9gi-3b19591b1/"
+    },
+    {
+      "name": "Oliver Mrakovics",
+      "url": "https://www.linkedin.com/in/0l1v3rr/"
+    }
   ],
-  "technologies": ["JavaScript", "PWA", "Web Components", "Service Workers", "Testing", "HTML", "CSS"],
-  "tags": ["frontend", "testing", "pwa", "web-components", "advanced", "offline"]
+  "technologies": ["HTML", "CSS", "Responsive Design", "WCAG", "SEO"],
+  "tags": [
+    "frontend",
+    "responsive",
+    "accessibility",
+    "seo",
+    "restaurant",
+    "promotional-website"
+  ]
 }

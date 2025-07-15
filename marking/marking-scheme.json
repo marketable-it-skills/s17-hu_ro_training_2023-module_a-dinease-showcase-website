@@ -1,0 +1,176 @@
+{
+  "totalMark": 17,
+  "wsosSections": {
+    "1": "Work organization and self-management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design Implementation",
+    "4": "Front-End Development"
+  },
+  "subCriterions": [
+    {
+      "name": "Project Organization",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Code structure and file organization",
+          "wsosSection": 1,
+          "judgementScoreDescription": [
+            "Poor code organization with no clear structure",
+            "Basic organization with some structure",
+            "Well-organized code with clear file structure",
+            "Excellent organization following best practices"
+          ],
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "Time management and delivery",
+          "extraDescription": "Project completed within specified timeframe",
+          "calculation": {
+            "type": "pass-or-fail",
+            "passDescription": "Project completed within 3 hours",
+            "failDescription": "Project not completed within timeframe"
+          },
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Communication Skills",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Clear and effective content presentation",
+          "wsosSection": 2,
+          "judgementScoreDescription": [
+            "Content is unclear and poorly presented",
+            "Content is somewhat clear with minor issues",
+            "Content is clear and well-presented",
+            "Content is exceptionally clear and engaging"
+          ],
+          "maxMark": 1
+        },
+        {
+          "type": "measurement",
+          "description": "User experience and navigation",
+          "extraDescription": "Website provides intuitive navigation and clear user flow",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Navigation is confusing or broken"},
+              {"value": 0.5, "description": "Navigation works but has usability issues"},
+              {"value": 1, "description": "Navigation is clear and intuitive"}
+            ]
+          },
+          "maxMark": 1
+        }
+      ]
+    },
+    {
+      "name": "Design Implementation",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Visual design alignment with provided mockups",
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Design does not match mockups at all",
+            "Design partially matches mockups",
+            "Design closely matches mockups",
+            "Design perfectly matches mockups with attention to detail"
+          ],
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Responsive design implementation",
+          "extraDescription": "Website works properly on mobile (360×640), tablet (768×1024), and desktop (1920×1080)",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Not responsive or broken on multiple viewports"},
+              {"value": 1, "description": "Responsive on 1-2 viewports"},
+              {"value": 2, "description": "Fully responsive on all specified viewports"}
+            ]
+          },
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Brand consistency and visual cohesion",
+          "extraDescription": "Consistent layout, typography, and color schemes across all pages",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No consistency between pages"},
+              {"value": 1, "description": "Some consistency with minor inconsistencies"},
+              {"value": 2, "description": "Full consistency across all pages"}
+            ]
+          },
+          "maxMark": 2
+        }
+      ]
+    },
+    {
+      "name": "Front-End Development",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "HTML structure and semantic markup",
+          "extraDescription": "Proper use of HTML5 semantic elements and valid markup",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Invalid HTML with no semantic structure"},
+              {"value": 1, "description": "Valid HTML with basic semantic structure"},
+              {"value": 2, "description": "Valid HTML with excellent semantic structure"}
+            ]
+          },
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "CSS implementation and styling",
+          "extraDescription": "Clean, efficient CSS code with proper styling techniques",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "Poor CSS with styling issues"},
+              {"value": 1, "description": "Adequate CSS with minor issues"},
+              {"value": 2, "description": "Excellent CSS implementation"}
+            ]
+          },
+          "maxMark": 2
+        },
+        {
+          "type": "measurement",
+          "description": "Accessibility compliance (WCAG)",
+          "extraDescription": "Website meets accessibility standards including alt text, semantic HTML, and ARIA attributes",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No accessibility considerations"},
+              {"value": 0.5, "description": "Basic accessibility implementation"},
+              {"value": 1.5, "description": "Good accessibility compliance"}
+            ]
+          },
+          "maxMark": 1.5
+        },
+        {
+          "type": "measurement",
+          "description": "SEO implementation",
+          "extraDescription": "Proper meta tags, semantic HTML structure, and content optimization",
+          "calculation": {
+            "type": "options",
+            "options": [
+              {"value": 0, "description": "No SEO considerations"},
+              {"value": 0.5, "description": "Basic SEO implementation"},
+              {"value": 1.5, "description": "Comprehensive SEO implementation"}
+            ]
+          },
+          "maxMark": 1.5
+        }
+      ]
+    }
+  ]
+}
